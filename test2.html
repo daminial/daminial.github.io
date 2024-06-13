@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Форма вопроса</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<style>
+.wrapper {
+    display: flex;
+}
+.block {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+@media (max-width: 800px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .block {
+        flex: initial;
+    }
+}
+</style>
+<body>
+    <div class="wrapper">
+        <div class="block">Block 1</div>
+        <div class="block">Block 2</div>
+        <div class="block">Block 3</div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
