@@ -592,5 +592,11 @@ footer li p{
     .el__ruki {
         flex: initial;
     }
+    .contacti{
+        margin-left: 8%;
+    }
+    .con{
+        margin-left: 8%;
+    }
 }
 /* контакты */
