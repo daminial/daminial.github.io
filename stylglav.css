@@ -587,6 +587,7 @@ footer li p{
     .ruki {
         flex-direction: column;
         margin-top: 180%;
+        margin-left: 0;
     }
 
     .el__ruki {
